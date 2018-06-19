@@ -7,6 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1C8857ABF7324CD1CBC413F /* Pods_weChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D50CC0AB2F01DEB19A68C0D /* Pods_weChatUITests.framework */; };
+		BC00FD0F20C8534A00B2AEAD /* open_box.png in Resources */ = {isa = PBXBuildFile; fileRef = BC00FD0E20C8534900B2AEAD /* open_box.png */; };
+		BC00FD1120C8537A00B2AEAD /* happy.png in Resources */ = {isa = PBXBuildFile; fileRef = BC00FD1020C8537A00B2AEAD /* happy.png */; };
+		BC00FD1320C8539700B2AEAD /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = BC00FD1220C8539700B2AEAD /* photo.png */; };
+		BC00FD1520C853A500B2AEAD /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = BC00FD1420C853A500B2AEAD /* settings.png */; };
+		BC00FD1B20C856F000B2AEAD /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = BC00FD1620C856EE00B2AEAD /* share.png */; };
+		BC00FD1C20C856F000B2AEAD /* hand.png in Resources */ = {isa = PBXBuildFile; fileRef = BC00FD1720C856EE00B2AEAD /* hand.png */; };
+		BC00FD1D20C856F000B2AEAD /* group.png in Resources */ = {isa = PBXBuildFile; fileRef = BC00FD1820C856EF00B2AEAD /* group.png */; };
+		BC00FD1E20C856F000B2AEAD /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = BC00FD1920C856EF00B2AEAD /* search.png */; };
+		BC00FD1F20C856F000B2AEAD /* qr_code.png in Resources */ = {isa = PBXBuildFile; fileRef = BC00FD1A20C856EF00B2AEAD /* qr_code.png */; };
+		BC1523CF20C79D3D007A54E8 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1523CE20C79D3D007A54E8 /* ChatModel.swift */; };
+		BC1523D120C79E24007A54E8 /* send_button.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1523D020C79E24007A54E8 /* send_button.png */; };
+		BC8DFD9520C6C4AA00E245A5 /* loading.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC8DFD9420C6C4AA00E245A5 /* loading.jpg */; };
+		BC8DFD9720C6C6E500E245A5 /* RemoteConfigDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC8DFD9620C6C6E500E245A5 /* RemoteConfigDefaults.plist */; };
+		BC8DFD9920C6CCCE00E245A5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8DFD9820C6CCCE00E245A5 /* LoginViewController.swift */; };
+		BC8DFD9D20C6CF8900E245A5 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8DFD9C20C6CF8900E245A5 /* logo.png */; };
+		BC8DFD9F20C6E0A800E245A5 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8DFD9E20C6E0A800E245A5 /* ChatViewController.swift */; };
+		BC8DFDA120C6E70100E245A5 /* chatbubble.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8DFDA020C6E70000E245A5 /* chatbubble.png */; };
+		BC8DFDA320C6E73900E245A5 /* people2.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8DFDA220C6E73900E245A5 /* people2.png */; };
+		BC8DFDA520C6E76F00E245A5 /* people.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8DFDA420C6E76F00E245A5 /* people.png */; };
+		BC8DFDA720C6E7A400E245A5 /* compass.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8DFDA620C6E7A400E245A5 /* compass.png */; };
+		BC8DFDA920C6EB4C00E245A5 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8DFDA820C6EB4C00E245A5 /* UserModel.swift */; };
+		BC8DFDAD20C6F18B00E245A5 /* CompassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8DFDAC20C6F18B00E245A5 /* CompassViewController.swift */; };
+		BC8DFDAF20C6F19F00E245A5 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8DFDAE20C6F19F00E245A5 /* MeViewController.swift */; };
+		BC8DFDB120C7087A00E245A5 /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8DFDB020C7087A00E245A5 /* SignViewController.swift */; };
+		BC8DFDB320C7135900E245A5 /* picture.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8DFDB220C7135800E245A5 /* picture.png */; };
 		BCB0741E20C6B1BE007C1C0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB0741D20C6B1BE007C1C0C /* AppDelegate.swift */; };
 		BCB0742020C6B1BE007C1C0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB0741F20C6B1BE007C1C0C /* ViewController.swift */; };
 		BCB0742320C6B1BE007C1C0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB0742120C6B1BE007C1C0C /* Main.storyboard */; };
@@ -14,6 +40,11 @@
 		BCB0742820C6B1BE007C1C0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB0742620C6B1BE007C1C0C /* LaunchScreen.storyboard */; };
 		BCB0743320C6B1BE007C1C0C /* weChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB0743220C6B1BE007C1C0C /* weChatTests.swift */; };
 		BCB0743E20C6B1BE007C1C0C /* weChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB0743D20C6B1BE007C1C0C /* weChatUITests.swift */; };
+		BCB0744C20C6BF16007C1C0C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCB0744B20C6BF16007C1C0C /* GoogleService-Info.plist */; };
+		BCFEA9BD20C771180039E32D /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFEA9BC20C771180039E32D /* PeopleViewController.swift */; };
+		BCFFA6AE20C82044007B7C56 /* ChatRoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFFA6AD20C82044007B7C56 /* ChatRoomsViewController.swift */; };
+		F447605B30C71BA06E38391B /* Pods_weChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEDA5C27F3699FC901083E0 /* Pods_weChat.framework */; };
+		FF5E2F4CE45BE6239CDBF933 /* Pods_weChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5F2D5DB807A8C271D5CA0 /* Pods_weChatTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +65,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17B5F2D5DB807A8C271D5CA0 /* Pods_weChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DEDA5C27F3699FC901083E0 /* Pods_weChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3226DFB5BAD87266C233239D /* Pods-weChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weChatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-weChatTests/Pods-weChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		673095F894A06995D94C7F5E /* Pods-weChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weChatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-weChatUITests/Pods-weChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D50CC0AB2F01DEB19A68C0D /* Pods_weChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DAC91086833F747F42B959E /* Pods-weChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-weChat/Pods-weChat.release.xcconfig"; sourceTree = "<group>"; };
+		A1B2359EEA7E0AF2838571C2 /* Pods-weChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-weChatTests/Pods-weChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		BC00FD0E20C8534900B2AEAD /* open_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = open_box.png; sourceTree = "<group>"; };
+		BC00FD1020C8537A00B2AEAD /* happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happy.png; sourceTree = "<group>"; };
+		BC00FD1220C8539700B2AEAD /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
+		BC00FD1420C853A500B2AEAD /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		BC00FD1620C856EE00B2AEAD /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		BC00FD1720C856EE00B2AEAD /* hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hand.png; sourceTree = "<group>"; };
+		BC00FD1820C856EF00B2AEAD /* group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = group.png; sourceTree = "<group>"; };
+		BC00FD1920C856EF00B2AEAD /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		BC00FD1A20C856EF00B2AEAD /* qr_code.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qr_code.png; sourceTree = "<group>"; };
+		BC1523CE20C79D3D007A54E8 /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		BC1523D020C79E24007A54E8 /* send_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = send_button.png; sourceTree = "<group>"; };
+		BC8DFD9420C6C4AA00E245A5 /* loading.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loading.jpg; sourceTree = "<group>"; };
+		BC8DFD9620C6C6E500E245A5 /* RemoteConfigDefaults.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RemoteConfigDefaults.plist; sourceTree = "<group>"; };
+		BC8DFD9820C6CCCE00E245A5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BC8DFD9C20C6CF8900E245A5 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		BC8DFD9E20C6E0A800E245A5 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		BC8DFDA020C6E70000E245A5 /* chatbubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chatbubble.png; sourceTree = "<group>"; };
+		BC8DFDA220C6E73900E245A5 /* people2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = people2.png; sourceTree = "<group>"; };
+		BC8DFDA420C6E76F00E245A5 /* people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = people.png; sourceTree = "<group>"; };
+		BC8DFDA620C6E7A400E245A5 /* compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass.png; sourceTree = "<group>"; };
+		BC8DFDA820C6EB4C00E245A5 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		BC8DFDAC20C6F18B00E245A5 /* CompassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassViewController.swift; sourceTree = "<group>"; };
+		BC8DFDAE20C6F19F00E245A5 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		BC8DFDB020C7087A00E245A5 /* SignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
+		BC8DFDB220C7135800E245A5 /* picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture.png; sourceTree = "<group>"; };
 		BCB0741A20C6B1BE007C1C0C /* weChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCB0741D20C6B1BE007C1C0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCB0741F20C6B1BE007C1C0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +110,11 @@
 		BCB0743920C6B1BE007C1C0C /* weChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCB0743D20C6B1BE007C1C0C /* weChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weChatUITests.swift; sourceTree = "<group>"; };
 		BCB0743F20C6B1BE007C1C0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCB0744B20C6BF16007C1C0C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BCFEA9BC20C771180039E32D /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		BCFFA6AD20C82044007B7C56 /* ChatRoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomsViewController.swift; sourceTree = "<group>"; };
+		C5889B5E861062AA62CBCBC4 /* Pods-weChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weChatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-weChatUITests/Pods-weChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D1AC3A6C50C12CEB9105B7F3 /* Pods-weChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-weChat/Pods-weChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F447605B30C71BA06E38391B /* Pods_weChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF5E2F4CE45BE6239CDBF933 /* Pods_weChatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +138,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1C8857ABF7324CD1CBC413F /* Pods_weChatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9AC67F0004357027EA96B6EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DEDA5C27F3699FC901083E0 /* Pods_weChat.framework */,
+				17B5F2D5DB807A8C271D5CA0 /* Pods_weChatTests.framework */,
+				6D50CC0AB2F01DEB19A68C0D /* Pods_weChatUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BCB0741120C6B1BE007C1C0C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +162,8 @@
 				BCB0743120C6B1BE007C1C0C /* weChatTests */,
 				BCB0743C20C6B1BE007C1C0C /* weChatUITests */,
 				BCB0741B20C6B1BE007C1C0C /* Products */,
+				C1CC296BE1347D436FAC2DBB /* Pods */,
+				9AC67F0004357027EA96B6EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +180,40 @@
 		BCB0741C20C6B1BE007C1C0C /* weChat */ = {
 			isa = PBXGroup;
 			children = (
+				BC00FD1820C856EF00B2AEAD /* group.png */,
+				BC00FD1720C856EE00B2AEAD /* hand.png */,
+				BC00FD1A20C856EF00B2AEAD /* qr_code.png */,
+				BC00FD1920C856EF00B2AEAD /* search.png */,
+				BC00FD1620C856EE00B2AEAD /* share.png */,
+				BC00FD1420C853A500B2AEAD /* settings.png */,
+				BC00FD1220C8539700B2AEAD /* photo.png */,
+				BC00FD1020C8537A00B2AEAD /* happy.png */,
+				BC00FD0E20C8534900B2AEAD /* open_box.png */,
+				BC1523D020C79E24007A54E8 /* send_button.png */,
+				BC8DFDB220C7135800E245A5 /* picture.png */,
+				BC8DFDA620C6E7A400E245A5 /* compass.png */,
+				BC8DFDA420C6E76F00E245A5 /* people.png */,
+				BC8DFDA220C6E73900E245A5 /* people2.png */,
+				BC8DFDA020C6E70000E245A5 /* chatbubble.png */,
+				BC8DFD9C20C6CF8900E245A5 /* logo.png */,
+				BC8DFD9420C6C4AA00E245A5 /* loading.jpg */,
+				BCB0744B20C6BF16007C1C0C /* GoogleService-Info.plist */,
 				BCB0741D20C6B1BE007C1C0C /* AppDelegate.swift */,
 				BCB0741F20C6B1BE007C1C0C /* ViewController.swift */,
 				BCB0742120C6B1BE007C1C0C /* Main.storyboard */,
 				BCB0742420C6B1BE007C1C0C /* Assets.xcassets */,
 				BCB0742620C6B1BE007C1C0C /* LaunchScreen.storyboard */,
 				BCB0742920C6B1BE007C1C0C /* Info.plist */,
+				BC8DFD9620C6C6E500E245A5 /* RemoteConfigDefaults.plist */,
+				BC8DFD9820C6CCCE00E245A5 /* LoginViewController.swift */,
+				BC8DFD9E20C6E0A800E245A5 /* ChatViewController.swift */,
+				BC8DFDA820C6EB4C00E245A5 /* UserModel.swift */,
+				BC8DFDAC20C6F18B00E245A5 /* CompassViewController.swift */,
+				BC8DFDAE20C6F19F00E245A5 /* MeViewController.swift */,
+				BC8DFDB020C7087A00E245A5 /* SignViewController.swift */,
+				BCFEA9BC20C771180039E32D /* PeopleViewController.swift */,
+				BC1523CE20C79D3D007A54E8 /* ChatModel.swift */,
+				BCFFA6AD20C82044007B7C56 /* ChatRoomsViewController.swift */,
 			);
 			path = weChat;
 			sourceTree = "<group>";
@@ -125,6 +236,19 @@
 			path = weChatUITests;
 			sourceTree = "<group>";
 		};
+		C1CC296BE1347D436FAC2DBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1AC3A6C50C12CEB9105B7F3 /* Pods-weChat.debug.xcconfig */,
+				6DAC91086833F747F42B959E /* Pods-weChat.release.xcconfig */,
+				3226DFB5BAD87266C233239D /* Pods-weChatTests.debug.xcconfig */,
+				A1B2359EEA7E0AF2838571C2 /* Pods-weChatTests.release.xcconfig */,
+				673095F894A06995D94C7F5E /* Pods-weChatUITests.debug.xcconfig */,
+				C5889B5E861062AA62CBCBC4 /* Pods-weChatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +256,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCB0744220C6B1BE007C1C0C /* Build configuration list for PBXNativeTarget "weChat" */;
 			buildPhases = (
+				664E65AA5DAE00C1AF92DFC7 /* [CP] Check Pods Manifest.lock */,
 				BCB0741620C6B1BE007C1C0C /* Sources */,
 				BCB0741720C6B1BE007C1C0C /* Frameworks */,
 				BCB0741820C6B1BE007C1C0C /* Resources */,
+				052A1D36CB1BDEAE4B3A9025 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +275,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCB0744520C6B1BE007C1C0C /* Build configuration list for PBXNativeTarget "weChatTests" */;
 			buildPhases = (
+				79E4ED65814918CBEEB7DECB /* [CP] Check Pods Manifest.lock */,
 				BCB0742A20C6B1BE007C1C0C /* Sources */,
 				BCB0742B20C6B1BE007C1C0C /* Frameworks */,
 				BCB0742C20C6B1BE007C1C0C /* Resources */,
@@ -167,6 +294,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCB0744820C6B1BE007C1C0C /* Build configuration list for PBXNativeTarget "weChatUITests" */;
 			buildPhases = (
+				0B3E106FECE772FE241F5124 /* [CP] Check Pods Manifest.lock */,
 				BCB0743520C6B1BE007C1C0C /* Sources */,
 				BCB0743620C6B1BE007C1C0C /* Frameworks */,
 				BCB0743720C6B1BE007C1C0C /* Resources */,
@@ -232,7 +360,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC8DFD9720C6C6E500E245A5 /* RemoteConfigDefaults.plist in Resources */,
+				BC00FD1B20C856F000B2AEAD /* share.png in Resources */,
+				BC8DFD9520C6C4AA00E245A5 /* loading.jpg in Resources */,
+				BC8DFDB320C7135900E245A5 /* picture.png in Resources */,
+				BC00FD1520C853A500B2AEAD /* settings.png in Resources */,
+				BC8DFDA320C6E73900E245A5 /* people2.png in Resources */,
 				BCB0742820C6B1BE007C1C0C /* LaunchScreen.storyboard in Resources */,
+				BC8DFDA520C6E76F00E245A5 /* people.png in Resources */,
+				BC00FD1320C8539700B2AEAD /* photo.png in Resources */,
+				BCB0744C20C6BF16007C1C0C /* GoogleService-Info.plist in Resources */,
+				BC00FD1E20C856F000B2AEAD /* search.png in Resources */,
+				BC8DFD9D20C6CF8900E245A5 /* logo.png in Resources */,
+				BC00FD1120C8537A00B2AEAD /* happy.png in Resources */,
+				BC00FD1C20C856F000B2AEAD /* hand.png in Resources */,
+				BC00FD1D20C856F000B2AEAD /* group.png in Resources */,
+				BC8DFDA720C6E7A400E245A5 /* compass.png in Resources */,
+				BC8DFDA120C6E70100E245A5 /* chatbubble.png in Resources */,
+				BC00FD1F20C856F000B2AEAD /* qr_code.png in Resources */,
+				BC1523D120C79E24007A54E8 /* send_button.png in Resources */,
+				BC00FD0F20C8534A00B2AEAD /* open_box.png in Resources */,
 				BCB0742520C6B1BE007C1C0C /* Assets.xcassets in Resources */,
 				BCB0742320C6B1BE007C1C0C /* Main.storyboard in Resources */,
 			);
@@ -254,13 +401,111 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		052A1D36CB1BDEAE4B3A9025 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-weChat/Pods-weChat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-weChat/Pods-weChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B3E106FECE772FE241F5124 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-weChatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		664E65AA5DAE00C1AF92DFC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-weChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79E4ED65814918CBEEB7DECB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-weChatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BCB0741620C6B1BE007C1C0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC8DFD9920C6CCCE00E245A5 /* LoginViewController.swift in Sources */,
 				BCB0742020C6B1BE007C1C0C /* ViewController.swift in Sources */,
+				BCFFA6AE20C82044007B7C56 /* ChatRoomsViewController.swift in Sources */,
+				BC8DFDAF20C6F19F00E245A5 /* MeViewController.swift in Sources */,
+				BC8DFDAD20C6F18B00E245A5 /* CompassViewController.swift in Sources */,
 				BCB0741E20C6B1BE007C1C0C /* AppDelegate.swift in Sources */,
+				BC1523CF20C79D3D007A54E8 /* ChatModel.swift in Sources */,
+				BCFEA9BD20C771180039E32D /* PeopleViewController.swift in Sources */,
+				BC8DFDA920C6EB4C00E245A5 /* UserModel.swift in Sources */,
+				BC8DFDB120C7087A00E245A5 /* SignViewController.swift in Sources */,
+				BC8DFD9F20C6E0A800E245A5 /* ChatViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +669,7 @@
 		};
 		BCB0744320C6B1BE007C1C0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1AC3A6C50C12CEB9105B7F3 /* Pods-weChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +684,7 @@
 		};
 		BCB0744420C6B1BE007C1C0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DAC91086833F747F42B959E /* Pods-weChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +699,7 @@
 		};
 		BCB0744620C6B1BE007C1C0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3226DFB5BAD87266C233239D /* Pods-weChatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +716,7 @@
 		};
 		BCB0744720C6B1BE007C1C0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B2359EEA7E0AF2838571C2 /* Pods-weChatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +733,7 @@
 		};
 		BCB0744920C6B1BE007C1C0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 673095F894A06995D94C7F5E /* Pods-weChatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +749,7 @@
 		};
 		BCB0744A20C6B1BE007C1C0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5889B5E861062AA62CBCBC4 /* Pods-weChatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
